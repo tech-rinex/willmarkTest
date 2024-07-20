@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+  <meta name="description" content="Will Mark International">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/will-mark.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/will-mark.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/will-mark.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/will-mark.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/will-mark.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/will-mark.png">
+  <link rel="manifest" href="./assets/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/images/will-mark.png"><!-- PWA primary color-->
+  <meta name="theme-color" content="#2196f3">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"><!-- Facebook-->
+
+  <title>Will Mark International </title><!-- Styles-->
+  <!-- Put the 3rd/plugins css here-->
+  <link href="./assets/css/vendors/normalize.css" rel="stylesheet">
+  <link href="./assets/css/vendors/bootstrap.css" rel="stylesheet">
+  <link href="./assets/css/vendors/jquery.youtubebackground.css" rel="stylesheet">
+  <link href="./assets/css/vendors/magnific-popup.css" rel="stylesheet">
+  <link href="./assets/css/vendors/materialize.css" rel="stylesheet">
+  <link href="./assets/css/vendors/hamburger-menu.css" rel="stylesheet">
+  <link href="./assets/css/vendors/animate.css" rel="stylesheet">
+  <link href="./assets/css/vendors/animate-extends.css" rel="stylesheet">
+  <link href="./assets/css/vendors/slick-carousel/slick.css" rel="stylesheet">
+  <link href="./assets/css/vendors/slick-carousel/slick-theme.css" rel="stylesheet">
+  <link href="./assets/css/styles.css" rel="stylesheet">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+  <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img
+      style="opacity: 0.5; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)"
+      src="./assets/images/loading.gif" alt="loading"></div>
+  <div class="m-application theme--light transition-page" id="app">
+    <div class="loading"></div>
+    <div class="m-content ocean-blue ocean-blue-var" id="main-wrap">
+      <div>
+        <div id="home"></div>
+        <div class="main-wrap">
+          <!-- ##### HEADER #####-->
+          <div class="sidenav mobile-nav" id="slide-menu">
+            <ul class="collection">
+              <li class="collection-item" style="animation-duration: 0.25s"><a
+                  class="sidenav-close waves-effect menu-list" href="course.html">Students Corner</a>
+              </li>
+              <li class="collection-item" style="animation-duration: 1s"><a class="sidenav-close waves-effect menu-list"
+                  href="#case-studies">Blogs</a></li>
+              <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list"
+                  href="contact.html">contact</a></li>
+              <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list"
+                  href="https://willmarkinternational.thinkific.com/users/sign_in" target="_blank">Login</a></li>
+            </ul>
+          </div>
+          <header class="app-bar header" id="header">
+            <div class="container">
+              <div class="header-content">
+                <nav class="nav-logo">
+                  <button class="mobile-menu btn-icon waves-effect hamburger hamburger--spin show-sm-down"
+                    id="mobile_menu" type="button">
+                    <span class="hamburger-box"><span class="bar hamburger-inner"></span></span>
+                  </button>
+                  <div class="logo scrollnav">
+                    <a href="index.html"><img src="./assets/images/will-mark.png" alt="logo" /></a>
+                  </div>
+                </nav>
+                <nav class="nav-menu">
+                  <div class="scrollactive-nav show-md-up scrollnav">
+                    <ul>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="course.html">Students Corner</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#case-studies">Blogs</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="contact.html">contact</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect"
+                  href="https://willmarkinternational.thinkific.com/users/sign_in" target="_blank">Login</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-setting">
+                    <div class="setting">
+                      <button class="btn btn-icon waves-effect btn-small m-2 dropdown-trigger"
+                        data-target="dropdown_config" type="button" data-align="left">
+                        <i class="icon material-icons" id="setting_icon">settings</i>
+                      </button>
+                      <div class="dropdown-content" id="dropdown_config">
+                        <ul class="collection with-header">
+                          <li class="collection-header">theme mode</li>
+                          <li class="collection-item no-hover pl-4">
+                            <div class="flex-menu">
+                              <div class="switch">
+                                <label>light<input id="theme_switcher" type="checkbox"><span
+                                    class="lever"></span>dark</label>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <div class="subback">
+            <!-- ======= Hero Section ======= -->
+            <section id="hero" class="hero d-flex align-items-center">
+
+              <div class="container py-8">
+                <div class="row">
+                  <div class="col-lg-6 d-flex flex-column justify-content-center py-7">
+
+                    <h3 data-aos="fade-up" style="padding-top:10px;">Very Large Scale Integration <img
+                        src="assets/images/Verified-logo-rinex-website.png" style="height:20px;"></h3>
+                    <p data-aos="fade-up" data-aos-delay="400">Integrated Circuits are widely used in any complex
+                      technological devices, the science behind it is VERY LARGE SCALE INTEGRATION (VLSI) where over a
+                      million MOS Transistors are embedded on to a single chip circuit.
+                    </p>
+                    <div data-aos="fade-up" data-aos-delay="600">
+                      <!-- <h5 style="color:#09f557;">Verified by Professionals from:</h5>
+          <img src="assets/images/partner/Allstate-Logo-RInex-Technologies-Pvt-Ltd-Mangalore.png" height="20px" width="70px" class="patnerim" >
+          <img src="assets/images/partner/J.P-Morgan-Logo-Rinex.png" height="60px" width="150px"  style="padding-top:0px;" class="patnerim1" > -->
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 mt-30 mb-10 column-gap">
+                        <a href="#features" class="btn primary pt-2">
+                          <span>Curriculum</span>
+                          <!-- <i class="bi bi-arrow-right"></i> -->
+                        </a>
+                      </div>
+                      <div class="col-md-6 mt-30 mb-20 column-gap">
+                        <a href="#pricing" class="btn btn-outlined primary">
+                          <span>Price</span>
+                          <!-- <i class="bi bi-arrow-right"></i> -->
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-6 hero-img py-8" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="assets/images/VLSI (1).png" class="img-fluid" alt="" width="500px" height="400px">
+                  </div>
+                </div>
+              </div>
+
+            </section><!-- End Hero -->
+            <section class="bottomspace text-center">
+              <div class="container subsect bg-white mt-30 ">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6  subpoints mb-30">
+                    <div class="col-md-2  icons">
+                      <i class="fas fa-user-shield fa-3x" style="color:rgb(21 199 158);"></i>
+                      <!-- <i class="fas fa-user-tie fa-5x" style="color:rgb(21 199 158);"></i>  -->
+                    </div>
+                    <div class="col-md-11 mt-30">
+                      <!-- <div class="row mb-0"> -->
+                      <h6 class="subtitle">Verified Professionals from</h6>
+                      <!-- </div> -->
+                      <!-- <div class="row mt-0"> -->
+                      <!-- <br/> -->
+                      <div class="patimages text-center">
+                        <img src="assets/images/partner/Allstate-Logo-RInex-Technologies-Pvt-Ltd-Mangalore.png"
+                          height="30px" width="50px" class="patnerim ml-10">
+                        <img src="assets/images/partner/J.P-Morgan-Logo-Rinex.png" height="30px" width="100px"
+                          class="patnerim1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 subpoints mb-30">
+                    <div class="col-md-2 icons">
+                      <i class="fas fa-file fa-3x" style="color:rgb(21 199 158);"></i>
+                    </div>
+                    <div class="col-md-11 mt-30 ">
+
+                      <h6>4 Course Projects</h6>
+                      <p class="sub"> 2 Major & 2 Minor</p>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-3">
+        <h6><i class="fas fa-clock fa-2x"></i>  24*7 Academic Support</h6>
+      </div> -->
+                  <div class="col-lg-5 col-md-6">
+                    <div class="col-md-2 icons">
+                      <i class="fas fa-chalkboard-teacher fa-3x" style="color:rgb(21 199 158);"></i>
+                    </div>
+                    <div class="col-md-11 mt-30 ">
+                      <h6> LIVE classes by Industrial Experts</h6>
+                      <p class="sub"> 50-60 hrs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <main id="main">
+              <!-- ======= About Section ======= -->
+              <section id="about" class="about">
+
+                <div class="container" data-aos="fade-up">
+                  <div class="row gx-0">
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
+                      data-aos-delay="200">
+                      <div class="content">
+
+                        <h3>
+                          <center>Overview of </center>
+                          <center>Very Large Scale Intergration</center>
+                        </h3>
+                        <p>
+                          Very Large Scale Integration is about manufacturing complex integrated circuits like
+                          microprocessor and memory chips that are used in the CPU, RAM, ROM, or other logic in
+                          electronic devices by combining millions of MOS transistors on to one single chip. This field
+                          of engineering is seemed to be vastly evolving since its start in the 1970s.
+
+                        </p>
+                        <!-- <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div> -->
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                      <img src="assets/images/pgr5.png" class="img-fluid" alt="">
+                    </div>
+
+                  </div>
+                </div>
+
+              </section><!-- End About Section -->
+
+              <!-- ======= Values Section ======= -->
+
+              <!-- ======= Counts Section ======= -->
+              <section id="counts" class="counts">
+                <div class="container" data-aos="fade-up">
+
+                  <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-6">
+                      <div class="count-box">
+                        <i class="bi bi-people"></i>
+                        <div>
+                          <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                          <p>Admissions</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                      <div class="count-box">
+                        <i class="bi bi-calendar" style="color: #ee6c20;"></i>
+                        <div>
+                          <span>15th of every 2nd month</span>
+                          <p>Upcoming Batches</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                      <div class="count-box">
+                        <i class="bi bi-clock" style="color: #15be56;"></i>
+                        <div>
+                          <span>
+                            <p>2 Month</p>
+                          </span>
+                          <!-- data-purecounter-start="0" data-purecounter-end="3 Months" data-purecounter-duration="1" class="purecounter"></span> -->
+                          <p>Course Duration</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                      <div class="count-box">
+                        <i class="bi bi-people" style="color: #bb0852;"></i>
+                        <div>
+                          <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                          <p>Batches</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </section><!-- End Counts Section -->
+
+              <!-- ======= Features Section ======= -->
+              <section id="features" class="features">
+
+                <div class="container" data-aos="fade-up">
+
+                  <header class="section-header">
+
+                    <p>Concepts Covered in Very Large Scale Integration </p>
+                  </header>
+
+                  <div class="row">
+
+                    <div class="col-lg-6">
+                      <img src="assets/images/features.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+                      <div class="row align-self-center gy-4">
+
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>VLSI Designs</h3>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>MOSFET</h3>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Layout Design Rules</h3>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Propagation Delays in MOS</h3>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Power Dissipation in CMOS Circuit</h3>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Semiconductor Memories</h3>
+                          </div>
+                        </div>
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>I/O Pads</h3>
+                          </div>
+                        </div>
+                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                          <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>VDHL Coding</h3>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div> <!-- / row -->
+
+                  <!-- Feature Tabs -->
+
+
+                  <!-- ======= Services Section ======= -->
+                  <section id="services" class="services">
+
+                    <div class="container" data-aos="fade-up">
+
+                      <header class="section-header">
+
+                        <p>Projects under VLSI</p>
+                      </header>
+
+                      <div class="row gy-4">
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                          <div class="service-box blue">
+                            <img src="assets/images/project1.png" class="img1">
+                            <h5>Cryptography Processor for Smart Cards
+                            </h5>
+                            <p>The usage of cryptography circuits for smart cards and smart electronic devices provides
+                              the advantage of authentication and highly secured data communication to all its users.
+                              The project implements both private key and public key algorithms. The micro-coded
+                              processor uses very limited power, and so this poses as an advantage to the VLSI circuit
+                              designers to deign within compact circuits.</p>
+                            <!-- <a href="#rs-contact" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                          <div class="service-box orange">
+                            <img src="assets/images/project1.png" class="img1">
+                            <h5>Removal of Impulse Noise in Image </h5>
+                            <p> This project helps in detection of noisy pixels and effective removal of random valued
+                              impulse noise to qualitatively improve the photographs using low cost efficient VLSI
+                              Architecture. Given the real-times this has proved to be a very advantageous technology.
+                              Image processing, as we know, is widely used in various fields, for instance, medical
+                              imaging, scanning techniques, printing skills, license plate recognition, face recognition
+                              and so on.</p>
+                            <!-- <a href="#rs-contact" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                          <div class="service-box green">
+                            <img src="assets/images/project1.png" class="img1">
+                            <h5>Improvise system Computing Speed
+                            </h5>
+                            <p>This project uses Rijndael or Advanced Encryption Standard (AES) for improving the system
+                              computing speed. AES algorithms are being used to encrypt files to secure information of
+                              Central Processing Units (CPUs) and Graphics Processing Units (GPUs). The main goal of the
+                              project is to secure the data transmission by implementing AES algorithms based on FGPA,
+                              carried out through VDHL coding.</p>
+                            <!-- <a href="#rs-contact" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+                          </div>
+                        </div>
+
+
+
+                      </div>
+
+                    </div>
+
+                  </section><!-- End Services Section -->
+
+                  <!-- ======= Pricing Section ======= -->
+                  <section id="pricing" class="pricing">
+
+                    <div class="container" data-aos="fade-up">
+
+                      <header class="section-header">
+
+                        <p>Check our Pricing</p>
+                      </header>
+
+                      <div class="row gy-4" data-aos="fade-left">
+
+
+
+                        <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                          <div class="box">
+                            <span class="featured" style="font-size:8px;">Student Choice</span>
+                            <h3 style="color: #65c600;">Student Program</h3>
+                            <div class="price"><sup><i class="fas fa-rupee-sign"></i></sup>3,000<span> /2 month</span>
+                            </div>
+                            <img src="assets/images/pricing-starter.png" class="img-fluid" alt="">
+                            <ul>
+                              <li><i class="fa fa-check" aria-hidden="true" style="padding-right:10px;"></i>30+ hours
+                                self-paced training programs</i></li>
+                              <!-- <li><i class="fa fa-check" aria-hidden="true"></i>Highly customizable</li> -->
+
+                              <li><i class="fa fa-check" aria-hidden="true" style="padding-right:10px;"></i>Research
+                                assistance</li>
+                              <li><i class="fa fa-check" aria-hidden="true" style="padding-right:10px;"></i>Switch
+                                mentor among mentors</li>
+                              <li><i class="fa fa-check" aria-hidden="true" style="padding-right:10px;"></i>2 Minor
+                                projects& 2 Major projects</li>
+                              <li><i class="fa fa-check" aria-hidden="true" style="padding-right:10px;"></i>2
+                                Certificates</li><li><i class="fa fa-check" aria-hidden="true" style="padding-right:10px;"></i>T&C Applicable</li>
+
+                            </ul>
+                            <a href="https://imjo.in/ZvSnvb" target="_blank" class="btn-buy">Enroll Now</a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </section><!-- End Pricing Section -->
+
+                  <!-- ======= F.A.Q Section ======= -->
+
+                  <!-- </main>End #main -->
+                </div>
+              </section>
+            </main>
+          </div>
+          <!-- ======= Footer ======= -->
+          <footer class="container footer">
+            <div class="row">
+              <div class="col-md-3 py-4 px-0">
+                <div class="logo">
+                  <img src="./assets/images/will-mark.png" alt="logo" />
+                  <h6 class="title"></h6>
+                </div>
+                <p class="footer-desc pb-2">We work with State, National and International
+                  Colleges and Universities to launch process of skilling for long term.
+                </p>
+                <p class="body-2 show-md-up">&copy; 2022 Willmark International. All Rights Reserved</p>
+              </div>
+              <div class="col-md-6 pa-4">
+                <ul class="show-sm-down collapsible">
+                  <li class="accordion-content">
+                    <div class="collapsible-header">
+                      <h6 class="title">Company</h6><i class="material-icons right arrow">expand_more</i>
+                    </div>
+                    <div class="collapsible-body">
+                      <ul>
+                        <li><a href="course.html">Students Corner</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="#map-address">Locations</a></li>
+                    <li><a href="https://willmarkinternational.thinkific.com/users/sign_in" target="_blank">Login</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="accordion-content">
+                    <div class="collapsible-header">
+                      <h6 class="title">Legal</h6><i class="material-icons right arrow">expand_more</i>
+                    </div>
+                    <div class="collapsible-body">
+                      <ul>
+                        <li><a href="privacy-policy.html" target="_blank">Privacy policy</a></li>
+                    <li><a href="refund-policy.html" target="_blank">Refund Policy</a></li>
+                    <li><a href="T&C.html" target="_blank">Terms of use</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+                <div class="row show-md-up justify-content-evenly">
+                  <div class="col-sm-3 pa-4 px-md-0 site-map-item">
+                    <h6 class="title-nav mb-4">Company</h6>
+                    <ul>
+                      <li><a href="course.html">Students Corner</a></li>
+                      <li><a href="contact.html">Contact us</a></li>
+                      <li><a href="#map-address">Locations</a></li>
+                    <li><a href="https://willmarkinternational.thinkific.com/users/sign_in" target="_blank">Login</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-3 pa-4 px-md-0 site-map-item">
+                    <h6 class="title-nav mb-4">Legal</h6>
+                    <ul>
+                       <li><a href="privacy-policy.html" target="_blank">Privacy policy</a></li>
+                      <li><a href="refund-policy.html" target="_blank">Refund Policy</a></li>
+                           <li><a href="T&C.html" target="_blank">Terms of use</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pa-4">
+                <div class="socmed">
+                  <a class="btn btn-icon waves-effect"
+                    href="https://instagram.com/willmark_international?igshid=ZDdkNTZiNTM=" target="_blank"><span
+                      class="ion-social-instagram icon"></span></a>
+                  <a class="btn btn-icon waves-effect"
+                    href="https://www.linkedin.com/company/willmark-international/?viewAsMember=true"
+                    target="_blank"><span class="ion-social-linkedin icon"></span></a>
+                </div>
+              </div>
+            </div>
+            <p class="body-2 text-center show-sm-down">&copy; 2022 Willmark International. All Rights
+              Reserved</p>
+          </footer><!-- ##### END FOOTER #####-->
+        </div>
+      </div>
+    </div>
+    <!-- Scripts-->
+    <!-- Put the 3rd/plugins javascript here-->
+    <script src="./assets/js/vendors/jquery.min.js"></script>
+    <script src="./assets/js/vendors/bootstrap.min.js"></script>
+    <script src="./assets/js/vendors/enquire.min.js"></script>
+    <script src="./assets/js/vendors/jquery.enllax.min.js"></script>
+    <script src="./assets/js/vendors/jquery.form-validator.min.js"></script>
+    <script src="./assets/js/vendors/jquery.touchSwipe.min.js"></script>
+    <script src="./assets/js/vendors/jquery.youtubebackground.js"></script>
+    <script src="./assets/js/vendors/pace.min.js"></script>
+    <script src="./assets/js/vendors/slick.min.js"></script>
+    <script src="./assets/js/vendors/wow.min.js"></script>
+    <script src="./assets/js/vendors/jquery.navScroll.min.js"></script>
+    <script src="./assets/js/vendors/parallax.min.js"></script>
+    <script src="./assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <!-- This assets are not avalaible in npm.js or it has been costumized-->
+    <script src="./assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="./assets/js/vendors/materialize.js"></script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
